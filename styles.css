@@ -1260,20 +1260,7 @@ body::before {
     color: var(--success-color);
 }
 
-.footer-skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-xs);
-}
 
-.footer-skill {
-    background: rgba(102, 126, 234, 0.2);
-    color: var(--text-primary);
-    padding: 4px 8px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 500;
-}
 
 .footer-bottom {
     text-align: center;

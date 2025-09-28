@@ -24,7 +24,7 @@ const projects = [
             { name: "Stripe", color: "#635BFF" }
         ],
         links: {
-            github: "https://github.com/alexchen/shopflow",
+            github: "https://github.com/perashanid/shopflow",
             live: "https://shopflow-demo.vercel.app"
         },
         images: [
@@ -60,7 +60,7 @@ const projects = [
             { name: "Socket.io", color: "#010101" }
         ],
         links: {
-            github: "https://github.com/alexchen/teamsync",
+            github: "https://github.com/perashanid/teamsync",
             live: "https://teamsync-app.netlify.app"
         },
         images: [
@@ -96,7 +96,7 @@ const projects = [
             { name: "Chart.js", color: "#FF6384" }
         ],
         links: {
-            github: "https://github.com/johndeveloper/weather-dashboard",
+            github: "https://github.com/perashanid/weather-dashboard",
             live: "https://weather-viz.github.io"
         },
         images: [
@@ -132,7 +132,7 @@ const projects = [
             { name: "Vercel", color: "#000000" }
         ],
         links: {
-            github: "https://github.com/johndeveloper/portfolio-gen",
+            github: "https://github.com/perashanid/portfolio-gen",
             live: null
         },
         images: [
@@ -168,7 +168,7 @@ const projects = [
             { name: "Material-UI", color: "#0081CB" }
         ],
         links: {
-            github: "https://github.com/johndeveloper/crypto-tracker",
+            github: "https://github.com/perashanid/crypto-tracker",
             live: "https://crypto-portfolio-tracker.vercel.app"
         },
         images: [
