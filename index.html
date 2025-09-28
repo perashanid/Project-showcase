@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta name="theme-color" content="#667eea">
+    <meta name="description" content="Modern portfolio showcase featuring cutting-edge web development projects with stunning visual design and user experience.">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Alex Chen</h1>
+            <p class="hero-subtitle">Full-Stack Developer</p>
+            <p class="hero-description">Building scalable web applications and crafting user experiences that matter</p>
+            <div class="visit-counter">
+                <span class="counter-label">Visitors:</span>
+                <span class="counter-number" id="visitCount">0</span>
+            </div>
+            <a href="#projects" class="cta-button">
+                <i class="fas fa-code"></i>
+                View My Work
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <!-- Projects Section -->
+    <main class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Alex Chen</h3>
+                    <p class="footer-description">Passionate about building meaningful software that solves real problems.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Connect</h4>
+                    <div class="footer-links">
+                        <a href="https://github.com/alexchen" target="_blank" class="footer-link">GitHub</a>
+                        <a href="https://linkedin.com/in/alexchen-dev" target="_blank" class="footer-link">LinkedIn</a>
+                        <a href="mailto:alex@alexchen.dev" class="footer-link">Email</a>
+                        <a href="https://twitter.com/alexchen_dev" target="_blank" class="footer-link">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Skills</h4>
+                    <div class="footer-skills">
+                        <span class="footer-skill">React</span>
+                        <span class="footer-skill">Node.js</span>
+                        <span class="footer-skill">TypeScript</span>
+                        <span class="footer-skill">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alex Chen. All rights reserved.</p>
+                <p class="footer-note">Built with passion using vanilla JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
